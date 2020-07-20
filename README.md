@@ -1,5 +1,4 @@
-# module2__solution
-this is my assignment
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -65,60 +64,81 @@ h2
   {
     background-color: green;
   }
+  h2
+  {
+    text-align: right;
+    color: #988;
+    border: 1px solid blue;
+    margin-left: 170px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .column {
     width: 100%;
   }
-  h1
-  {
-    color: green;
-  }
    body
   {
     background-color: brown;
   }
+  h2
+  {
+   text-align: right;
+   color: #988;
+   border: 1px solid blue;
+   margin-left: 250px;
+   border :border-box;
+  }
+ #tag
+  {
+    text-align: right;
+    color: #988;
+    border: 1px solid blue;
+    margin-left: 625px;
+    border :border-box;
+  }
   h1
-{
-  text-align: center;
-  color: red;
-  padding: 10px;
-}
-  .col-md-4 {
-  float: left;
-  width: 47.8%;
-  padding: 10px;
-  height: 300px;
-  border: 1px solid black;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  overflow: auto; 
-}
-  .col-lg-4 {
-  float: left;
-  width: 97.8%;
-  padding: 10px;
-  height: 300px;
-  border: 1px solid black;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  overflow: auto; 
-}
-}
+  {
+    text-align: center;
+    color: green;
+    padding: 10px;
+  }
+  .col-md-4 
+  {
+    float: left;
+    width: 47.8%;
+    padding: 10px;
+    height: 300px;
+    border: 1px solid black;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    overflow: auto; 
+   }
+  .col-lg-4 
+   {
+     float: left;
+     width: 97.8%;
+     padding: 10px;
+     height: 300px;
+     border: 1px solid black;
+     margin-right: 15px;
+     margin-bottom: 15px;
+     overflow: auto; 
+   }   
+   }
 @media screen and (max-width: 767px) {
   .column {
     width: 100%;
   }
-  h1
+  h2
   {
-    color: blue;
+   text-align: right;
+   color: #988;
+   border: 1px solid blue;
+   margin-left: 170px;
   }
    body
   {
     background-color: maroon;
-  }
-  body
-  {
     text-align: center;
   }
   h1
@@ -126,7 +146,7 @@ h2
   text-align: center;
   text-shadow: 4px;
   text-decoration-style: inherit;
-  color: red;
+  color: blue;
   padding: 10px;
 
 }
@@ -139,6 +159,7 @@ h2
   margin-right: 15px;
   margin-bottom: 15px;
   overflow: auto; 
+  text-align: center;
 }
   .col-lg-4 {
   float: left;
@@ -148,6 +169,7 @@ h2
   border: 1px solid black;
   margin-right: 15px;
   margin-bottom: 15px;
+  text-align: center;
 }
 }
 </style> 
@@ -166,7 +188,7 @@ h2
     <p>A neem tree is an evergreen, fast growing tree that is commonly found in Asia (especially south and Southeast Asia). In these nations, it is considered a household staple. The trunk of the neem tree is straight and rough, reaching the height of almost 100 feet. The wood of the tree is commonly used for furniture making, whereas the overall tree is used for medicinal purposes, fertilizers, and much more.</p>
   </div>
   <div class="col-lg-4" style="background-color:lightgreen;">
-    <h2>Mahogany Tree</h2>
+    <h2  id="tag">Mahogany Tree</h2>
     <p>A mahogany tree is an evergreen, medium sized tree that is native to southern Florida, but it can also found in the Caribbean islands and southern Asia. This tree has a thin trunk, which is sturdy. The color of the wood is rich brown with a few hints of light brown. The wood obtained from the trees is quite precious and is often used for furniture, boats, musical instruments, and casket.</p>
   </div>
 </div>
